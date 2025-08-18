@@ -1,0 +1,37 @@
+{
+  "name": "news-viewer",
+  "version": "1.0.0",
+  "description": "A modern, responsive news viewing application built with vanilla JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx http-server -p 8000",
+    "dev": "live-server --port=8000"
+  },
+  "keywords": [
+    "news",
+    "javascript",
+    "vanilla-js",
+    "responsive",
+    "modern-ui",
+    "news-api",
+    "web-app"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/news-viewer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/news-viewer/issues"
+  },
+  "homepage": "https://github.com/yourusername/news-viewer#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
